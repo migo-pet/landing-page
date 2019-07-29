@@ -1,0 +1,64 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Sabandija FFP";
+  src: url("../../fonts/Sabandija-font-ffp.ttf");
+}
+body {
+  font-family: "Sabandija FFP", sans-serif;
+  font-weight: 400;
+}
+
+.header {
+  height: 90vh;
+  width: 100vw;
+  background: url("../../img/header-bg.png") top;
+  background-size: cover;
+  position: relative;
+}
+.header__top {
+  padding-top: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__top img {
+  width: 250px;
+  margin-left: 3rem;
+}
+.header__top h1 {
+  color: #fff;
+  margin-right: 3rem;
+  font-size: 2.6rem;
+  letter-spacing: 0.06em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header__top h1 span {
+  display: block;
+}
+
+/*# sourceMappingURL=style.css.map */
