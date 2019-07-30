@@ -1,0 +1,109 @@
+.info {
+  padding-top: 3rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__titulo {
+    width: 40%;
+    color: $color-purple-dark;
+
+    text-align: center;
+  }
+
+  &__conheca {
+    width: 55%;
+    margin-top: 2rem;
+    text-align: center;
+
+    bold {
+      font-weight: 700;
+    }
+  }
+
+  &__brasil {
+    width: 60%;
+    margin-top: 1.8rem;
+    text-align: center;
+  }
+
+  &__mapa {
+    padding: 7rem 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &--texto {
+      width: 25%;
+      margin-right: 8rem;
+      position: relative;
+
+      &::before {
+        display: block;
+        content: '';
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: -20px;
+        left: -20px;
+        border-top: 2px solid $color-blue;
+        border-left: 2px solid $color-blue;
+      }
+
+      &::after {
+        display: block;
+        content: '';
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: -20px;
+        right: -20px;
+        border-top: 2px solid $color-blue;
+        border-right: 2px solid $color-blue;
+      }
+
+      p:first-child {
+        margin-bottom: 3rem;
+      }
+
+      p:last-child {
+        &::before {
+          display: block;
+          content: '';
+          width: 60px;
+          height: 60px;
+          position: absolute;
+          bottom: -20px;
+          left: -20px;
+          border-bottom: 2px solid $color-blue;
+          border-left: 2px solid $color-blue;
+        }
+
+        &::after {
+          display: block;
+          content: '';
+          width: 60px;
+          height: 60px;
+          position: absolute;
+          bottom: -20px;
+          right: -20px;
+          border-bottom: 2px solid $color-blue;
+          border-right: 2px solid $color-blue;
+        }
+      }
+
+      bold {
+        font-weight: 700;
+      }
+    }
+
+    img {
+      width: 25%;
+    }
+  }
+
+  &__relato {
+  }
+}
