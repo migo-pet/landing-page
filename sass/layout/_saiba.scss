@@ -1,0 +1,19 @@
+.saiba {
+  padding: 2rem 0;
+  background-color: $color-blue;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h3 {
+    color: $color-white;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+  }
+
+  form {
+    margin-top: 3rem;
+    width: 30%;
+  }
+}

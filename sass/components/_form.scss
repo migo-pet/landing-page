@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+
+  &__input {
+    &-box {
+      display: flex;
+      flex-direction: column;
+      flex: 2;
+    }
+
+    height: 3.4rem;
+    padding-left: 4px;
+    background: none;
+    color: $color-white;
+    border: none;
+    border: 2px solid $color-white;
+    border-radius: 2px;
+    font-size: 1.4rem;
+
+    &:focus {
+      outline: none;
+    }
+
+    &::placeholder {
+      color: $color-white;
+      font-family: $paragraph-font;
+    }
+
+    &:first-child {
+      margin-bottom: 1rem;
+    }
+  }
+}

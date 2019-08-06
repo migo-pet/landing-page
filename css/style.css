@@ -61,6 +61,62 @@ span {
   font-family: "Open Sans", sans-serif;
 }
 
+.button {
+  height: 36px;
+  margin-left: 4rem;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #603678;
+  background-image: linear-gradient(to bottom, #6d3772, #623273);
+  background-repeat: repeat-x;
+  border: 1px solid #cccccc;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  color: #fff;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  font-size: 1.8rem;
+  cursor: pointer;
+  display: flex;
+  flex: 0 0 11rem;
+  justify-content: center;
+  align-self: center;
+}
+.button:focus {
+  outline: none;
+  background-image: linear-gradient(to bottom, #5c2961, #4e235e);
+}
+.button:hover {
+  background-image: linear-gradient(to bottom, #5c2961, #4e235e);
+}
+
+.form {
+  display: flex;
+}
+.form__input {
+  height: 3.4rem;
+  padding-left: 4px;
+  background: none;
+  color: #fff;
+  border: none;
+  border: 2px solid #fff;
+  border-radius: 2px;
+  font-size: 1.4rem;
+}
+.form__input-box {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+.form__input:focus {
+  outline: none;
+}
+.form__input::placeholder {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+.form__input:first-child {
+  margin-bottom: 1rem;
+}
+
 .header {
   min-height: 100vh;
   width: 100%;
@@ -149,7 +205,7 @@ span {
   border-radius: 2px;
   color: #fff;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   cursor: pointer;
   display: flex;
   flex: 0 0 11rem;
@@ -332,6 +388,23 @@ span {
 .info__rufus img {
   margin-left: 10px;
   height: 200px;
+}
+
+.saiba {
+  padding: 2rem 0;
+  background-color: #3870ba;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.saiba h3 {
+  color: #fff;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+.saiba form {
+  margin-top: 3rem;
+  width: 30%;
 }
 
 /*# sourceMappingURL=style.css.map */
