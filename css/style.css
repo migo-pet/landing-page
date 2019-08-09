@@ -417,7 +417,7 @@ bold {
   padding: 2rem;
   border: 2px solid #603678;
   border-radius: 2px;
-  font-family: "Sabandija FFP";
+  font-family: "Sabandija FFP", sans-serif;
   text-align: center;
 }
 .produto__cartao img {
@@ -482,6 +482,39 @@ bold {
   border: 2px solid #603678;
   border-radius: 8px;
   text-align: center;
+}
+.produto__comunidade {
+  width: 60%;
+  margin-top: 6rem;
+  display: flex;
+}
+.produto__comunidade--left {
+  flex: 2;
+}
+.produto__comunidade--right {
+  margin-left: 1rem;
+  flex: 1;
+}
+.produto__comunidade h3 {
+  padding-left: 1.5rem;
+  color: #603678;
+}
+.produto__comunidade ul {
+  margin-top: 3rem;
+  font-family: "Open Sans", sans-serif;
+}
+.produto__comunidade ul li {
+  margin-bottom: 2rem;
+}
+.produto__comunidade img {
+  height: 30rem;
+}
+.produto__mensagem {
+  margin-top: 5rem;
+  font-family: "Sabandija FFP", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
 }
 
 .saiba {
