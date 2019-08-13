@@ -534,4 +534,67 @@ bold {
   width: 30%;
 }
 
+.valor {
+  background-color: #f8f4f5;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.valor__gato, .valor__vagas {
+  width: 70%;
+  display: flex;
+  align-items: flex-start;
+}
+.valor__gato--texto *, .valor__vagas--texto * {
+  margin-bottom: 2rem;
+}
+.valor__gato--texto h3, .valor__vagas--texto h3 {
+  color: #3870ba;
+  letter-spacing: 0.02em;
+}
+.valor__vagas {
+  align-items: center;
+}
+.valor__vagas--texto {
+  width: 60%;
+}
+.valor__vagas--texto bold {
+  font-weight: 700;
+}
+.valor__vagas--contador {
+  width: 30%;
+  margin-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.valor__vagas--contador span {
+  display: inline-block;
+  text-align: center;
+}
+.valor__vagas--contador button {
+  height: 3.2rem;
+  padding: 0 12px;
+  background: none;
+  background-color: #9d9d9d;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.valor__vagas--contador button:focus {
+  outline: none;
+}
+.valor__vagas--contador img {
+  height: 24px;
+  width: 24px;
+  margin-left: 5px;
+}
+
 /*# sourceMappingURL=style.css.map */
